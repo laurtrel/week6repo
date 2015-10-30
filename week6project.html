@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="week6style">
+	</head>
+	<body>
+		<div class="wrapper">
+		<form action="http://174.129.248.23/brainstation/files/submittingforms.php" method="GET">
+		<h4>User: </h4>
+ 		 <input type="text" name="user"/>
+		<h4>Bio:</h4>
+ 		 <textarea name="bio"></textarea>
+ 		<h4>Agree to terms:</h4>
+  		<input type="checkbox" name="agree" />
+  		<h4>City: </h4>
+  		<select name="city">
+  		<option>Pick</option>
+  		<option>Vancouver</option>
+  		<option>Seattle</option>
+  		<option>Toronto</option>
+		</select>
+		<h4>Gender:</h4>
+		Male
+		<input type="radio" name="gender" value="male" />
+		Female
+		<input type="radio" name="gender" value="female" />
+		<button>Submit</button>
+		</form>
+		</div>
+	</body>
+</html>
